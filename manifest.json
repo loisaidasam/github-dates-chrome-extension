@@ -1,0 +1,27 @@
+{
+  "name": "Github dates",
+  "author": "@LoisaidaSam",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Display real, helpful timestamps with Github commits like 'May 10, 2015, 1:57 AM EDT' instead of useless ones like '2 days ago'",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
