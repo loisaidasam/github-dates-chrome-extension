@@ -14,3 +14,7 @@ A Chrome Extension to display real, helpful timestamps with Github commits like 
 
 - [https://developer.chrome.com/extensions/getstarted](https://developer.chrome.com/extensions/getstarted)
 - [http://extensionizr.com/](http://extensionizr.com/)
+
+# Disclaimer
+
+![http://i0.kym-cdn.com/photos/images/original/000/234/739/fa5.jpg](http://i0.kym-cdn.com/photos/images/original/000/234/739/fa5.jpg)
